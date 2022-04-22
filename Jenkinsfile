@@ -1,0 +1,20 @@
+pipeline{
+  agent any
+  stages('CI'){
+    stage(''){
+      steps{
+        //script
+      }
+    }
+    stage(''){
+      steps{
+        //script
+      }
+    }
+    stage(''){
+      steps{
+        //script
+      }
+    }
+  }
+}
