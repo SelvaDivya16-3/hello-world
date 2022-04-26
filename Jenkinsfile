@@ -9,7 +9,7 @@ pipeline{
     stage('Build'){
       steps{
         //script
-        echi 'Checkout'
+        echo 'Checkout'
       }
     }
     stage('Test'){
